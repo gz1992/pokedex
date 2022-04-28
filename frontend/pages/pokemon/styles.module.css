@@ -1,0 +1,31 @@
+.header {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 1.4rem;
+}
+
+.pokemonContent .title {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1.5rem;
+}
+
+.pokemonContent b {
+	color: #3f3f3f;
+	font-size: 1.5rem;
+}
+
+.pokemonContent .types {
+	display: flex;
+	justify-content: flex-start;
+	gap: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 7rem;
+}
+
+.pokemonContent .img {
+	position: relative;
+	height: 18rem;
+	width: 100%;
+	margin-top: -6rem;
+}

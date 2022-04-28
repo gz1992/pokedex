@@ -1,0 +1,132 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Spartan' !important;
+}
+
+input {
+	font-family: 'Spartan' !important;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.singlePokemon.big {
+	height: 14rem;
+}
+
+.singlePokemon {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	align-items: center;
+	justify-content: center;
+	height: 8rem;
+	border-radius: 20px;
+	margin-top: 3.5rem;
+}
+.singlePokemon.fire,
+.singleType.fire {
+	background: linear-gradient(55.56deg, #ff6969 0%, #fd9e5a 100%);
+}
+.singlePokemon.grass,
+.singleType.grass {
+	background: linear-gradient(55.56deg, #7cffd0 0%, #4a7b42 100%);
+}
+.singlePokemon.water,
+.singleType.water {
+	background: linear-gradient(55.56deg, #7cc0ff 0%, #5f29ff 100%);
+}
+.singlePokemon.poison,
+.singleType.poison {
+	background: linear-gradient(55.56deg, #a51fd9 0%, #a51fd9 100%);
+}
+.singlePokemon.flying,
+.singleType.flying {
+	background: linear-gradient(55.56deg, #fff3cf 0%, #7cc0ff 100%);
+}
+.singlePokemon.bug,
+.singleType.bug {
+	background: linear-gradient(55.56deg, #9b00b5 0%, #4a7b42 100%);
+}
+.singlePokemon.ground,
+.singleType.ground {
+	background: linear-gradient(55.56deg, #a56b00 0%, #fd9e5a 100%);
+}
+.singlePokemon.normal,
+.singleType.normal {
+	background: linear-gradient(55.56deg, #ffdcc7 0%, #fff3cf 100%);
+}
+.singlePokemon.electric,
+.singleType.electric {
+	background: linear-gradient(55.56deg, #f3e41c 0%, #fd9e5a 100%);
+}
+.singlePokemon.fairy,
+.singleType.fairy {
+	background: linear-gradient(55.56deg, #f9cef7 0%, #ffdcc7 100%);
+}
+.singlePokemon.fighting,
+.singleType.fighting {
+	background: linear-gradient(55.56deg, #971d00 0%, #ffdcc7 100%);
+}
+.singlePokemon.psychic,
+.singleType.psychic {
+	background: linear-gradient(55.56deg, #880097 0%, #f9cef7 100%);
+}
+.singlePokemon.ghost,
+.singleType.ghost {
+	background: linear-gradient(55.56deg, #51015e 0%, #880097 100%);
+}
+.singlePokemon.rock,
+.singleType.rock {
+	background: linear-gradient(55.56deg, #4e0f00 0%, #a56b00 100%);
+}
+.singlePokemon.ice,
+.singleType.ice {
+	background: linear-gradient(55.56deg, #7cc0ff 0%, #7ccfff 100%);
+}
+.singlePokemon.dragon,
+.singleType.dragon {
+	background: linear-gradient(55.56deg, #08c1a8 0%, #00ffdd 100%);
+}
+.singlePokemon.steel,
+.singleType.steel {
+	background: linear-gradient(55.56deg, #a2a4a5 0%, #c3c3c3 100%);
+}
+.singlePokemon.dark,
+.singleType.dark {
+	background: linear-gradient(55.56deg, #31305c 0%, #18173c 100%);
+}
+
+.singleType {
+	padding: 0.5rem 1rem;
+	border-radius: 30px;
+}
+
+.singleType.fire,
+.singleType.grass,
+.singleType.water,
+.singleType.poison,
+.singleType.flying,
+.singleType.bug,
+.singleType.ground,
+.singleType.normal,
+.singleType.electric,
+.singleType.fairy,
+.singleType.fighting,
+.singleType.psychic,
+.singleType.ghost,
+.singleType.rock,
+.singleType.ice,
+.singleType.dragon,
+.singleType.steel,
+.singleType.dark {
+	color: #fff;
+}

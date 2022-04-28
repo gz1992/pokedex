@@ -1,0 +1,24 @@
+.login {
+	background: url('/imgs/pokemons-image.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+	padding: 2rem;
+}
+
+.loginForm {
+	background-color: #ffffff;
+	margin-top: 2rem;
+	padding: 2rem 1.25rem;
+	border-radius: 0.75rem;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}

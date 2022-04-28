@@ -1,0 +1,44 @@
+.navBar .navHeader {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #c0c0c0;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.navBar .navHeader .singleHeader {
+	width: 33%;
+	text-align: center;
+	padding: 1rem;
+}
+
+.navBar .navHeader .singleHeader.active {
+	border-bottom: 2px solid #ff1d1d;
+}
+
+.navBar .navContent {
+	padding: 1.5rem 1rem;
+}
+
+.navBar .singleContent {
+	display: none;
+}
+
+.navBar .singleContent.active {
+	display: inherit;
+}
+
+.navBar .singleContent div {
+	display: flex;
+	justify-content: flex-start;
+	gap: 1rem;
+}
+
+.navBar .singleContent div p {
+	color: #9a9a9a;
+	min-width: 8rem;
+}
+
+.singleContent div.stat p {
+	min-width: 9rem;
+}

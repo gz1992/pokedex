@@ -1,0 +1,33 @@
+.inputForm {
+	background: rgba(51, 51, 51, 0.06);
+	position: relative;
+	padding: 0.5rem 0.25rem;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+.inputForm.active {
+	border-bottom: 2px solid #1554f6;
+}
+
+.inputForm .title {
+	font-size: 0.75rem;
+	color: rgba(0, 0, 0, 0.54);
+	margin-left: 0.75rem;
+	margin-bottom: 0.25rem;
+}
+
+.inputForm input {
+	border: 0;
+	background-color: transparent;
+	width: 100%;
+	padding-left: 0.75rem;
+	font-size: 1rem;
+}
+.inputForm input:focus {
+	outline: 0;
+}
+
+.inputForm .showPassword {
+	position: absolute;
+	right: 1rem;
+}

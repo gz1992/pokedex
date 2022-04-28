@@ -1,0 +1,33 @@
+.header {
+	position: fixed;
+	background-color: #ffffff;
+	width: 100%;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	margin: 0 auto;
+	left: 0;
+	padding: 0 1rem;
+}
+
+.fakeHeader {
+	height: 205px;
+}
+
+.allPokemons .img {
+	position: relative;
+	height: 8rem;
+	width: 100%;
+	margin-top: -6rem;
+}
+
+.allPokemons .name {
+	background-color: #676767;
+	color: #ffffff;
+	border-radius: 70px;
+	width: 80%;
+	text-align: center;
+	padding: 0.25rem;
+	text-transform: capitalize;
+	margin-bottom: 0;
+}

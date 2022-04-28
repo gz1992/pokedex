@@ -1,0 +1,133 @@
+.searchComponent form {
+	width: 100%;
+}
+
+.searchComponent input {
+	background-color: #e5e5e5;
+	border-radius: 70px;
+	border: 0;
+	padding: 1rem;
+	width: 100%;
+}
+
+.searchComponent input::-webkit-input-placeholder {
+	text-align: center;
+}
+
+.searchComponent input:-moz-placeholder {
+	text-align: center;
+}
+
+.searchComponent input:focus {
+	outline: 0;
+}
+
+.selectedFilters {
+	display: flex;
+	gap: 0.5rem;
+	width: 100%;
+	overflow-x: scroll;
+	justify-content: flex-start;
+	background-color: #fff;
+	color: #444;
+	margin-top: 1.2rem;
+	padding-bottom: 1rem;
+}
+
+.singleFilter {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.5rem;
+	background: rgba(0, 0, 0, 0.08);
+	border-radius: 40px;
+	padding: 0.5rem 1rem;
+}
+
+.singleFilter .name {
+	margin-bottom: 0;
+}
+
+.singleFilter .removeBtn {
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 50%;
+	width: 1.25rem;
+	height: 1.25rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.singleFilter .removeFilter {
+	color: #ffffff;
+	font-size: 1.3rem;
+	margin-top: 0.25rem;
+	font-weight: 600;
+}
+
+.filterOptions {
+	position: fixed;
+	height: 100vh;
+	width: 80vw;
+	top: 0;
+	right: 0;
+	background-color: #fff;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 2rem;
+}
+
+.filterOptions .title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.filterOptions .title span {
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 1.875rem;
+	color: #3f3f3f;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 0.75rem;
+}
+
+.filterOptions .title .clean {
+	font-size: 0.75rem;
+	text-decoration-line: underline;
+	color: #4a7dff;
+}
+
+.filterOptions .content {
+	margin-top: 3rem;
+}
+
+.filterOptions .content span {
+	color: #3f3f3f;
+	font-size: 1rem;
+}
+
+.filterOptions .content .allFiltersType {
+	display: grid;
+	grid-template-columns: 48% 48%;
+	gap: 1rem;
+	padding-top: 1.5rem;
+}
+
+.singleFilterType {
+	text-transform: capitalize;
+	background-color: #d8d8d8;
+	color: #6b6060;
+	display: flex;
+	justify-content: center;
+	padding: 0.5rem;
+}
+
+.singleFilterType.active {
+	background-color: #2e6eb5;
+	color: #ffffff;
+}

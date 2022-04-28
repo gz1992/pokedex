@@ -1,0 +1,54 @@
+.singlePokemon.fire {
+	background: linear-gradient(55.56deg, #ff6969 0%, #fd9e5a 100%);
+}
+.singlePokemon.grass {
+	background: linear-gradient(55.56deg, #7cffd0 0%, #4a7b42 100%);
+}
+.singlePokemon.water {
+	background: linear-gradient(55.56deg, #7cc0ff 0%, #5f29ff 100%);
+}
+.singlePokemon.poison {
+	background: linear-gradient(55.56deg, #a51fd9 0%, #a51fd9 100%);
+}
+.singlePokemon.flying {
+	background: linear-gradient(55.56deg, #fff3cf 0%, #7cc0ff 100%);
+}
+.singlePokemon.bug {
+	background: linear-gradient(55.56deg, #9b00b5 0%, #4a7b42 100%);
+}
+.singlePokemon.ground {
+	background: linear-gradient(55.56deg, #a56b00 0%, #fd9e5a 100%);
+}
+.singlePokemon.normal {
+	background: linear-gradient(55.56deg, #ffdcc7 0%, #fff3cf 100%);
+}
+.singlePokemon.electric {
+	background: linear-gradient(55.56deg, #f3e41c 0%, #fd9e5a 100%);
+}
+.singlePokemon.fairy {
+	background: linear-gradient(55.56deg, #f9cef7 0%, #ffdcc7 100%);
+}
+.singlePokemon.fighting {
+	background: linear-gradient(55.56deg, #971d00 0%, #ffdcc7 100%);
+}
+.singlePokemon.psychic {
+	background: linear-gradient(55.56deg, #880097 0%, #f9cef7 100%);
+}
+.singlePokemon.ghost {
+	background: linear-gradient(55.56deg, #51015e 0%, #880097 100%);
+}
+.singlePokemon.rock {
+	background: linear-gradient(55.56deg, #4e0f00 0%, #a56b00 100%);
+}
+.singlePokemon.ice {
+	background: linear-gradient(55.56deg, #7cc0ff 0%, #7ccfff 100%);
+}
+.singlePokemon.dragon {
+	background: linear-gradient(55.56deg, #08c1a8 0%, #00ffdd 100%);
+}
+.singlePokemon.steel {
+	background: linear-gradient(55.56deg, #a2a4a5 0%, #c3c3c3 100%);
+}
+.singlePokemon.dark {
+	background: linear-gradient(55.56deg, #31305c 0%, #18173c 100%);
+}
